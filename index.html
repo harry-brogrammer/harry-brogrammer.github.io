@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Taolao Lab · Studio sản phẩm AI</title>
-<meta name="description" content="Taolao Lab là studio sản phẩm AI tại Việt Nam. Sản phẩm: Giọng Quê HR, Chợ Việt. Chi phí server: 0 ₫ mỗi tháng.">
+<title>Taolao Lab · AI lab</title>
+<meta name="description" content="Taolao Lab là AI lab tại Việt Nam, chuyên những vấn đề chưa ai dám làm: phương ngữ tiếng Việt, AI trên thiết bị, phần mềm do AI agent phát triển.">
 <meta name="theme-color" content="#FBFBFA" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0B0C0F" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Taolao Lab">
-<meta property="og:title" content="Taolao Lab: AI chạy ngay trên trình duyệt. Không cần server.">
-<meta property="og:description" content="Studio sản phẩm AI tại Việt Nam. Giọng Quê HR, Chợ Việt. Chi phí server: 0 ₫ mỗi tháng.">
-<meta property="og:image" content="https://taolaolab.com/og-2.png">
+<meta property="og:title" content="Taolao Lab: AI lab cho những vấn đề chưa ai dám làm">
+<meta property="og:description" content="Phương ngữ tiếng Việt, AI chạy trên thiết bị, phần mềm do AI agent phát triển. Sản phẩm: Giọng Quê HR, Chợ Việt.">
+<meta property="og:image" content="https://taolaolab.com/og-3.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://taolaolab.com/">
@@ -60,7 +60,6 @@ a { color: inherit; }
 img { display: block; max-width: 100%; height: auto; }
 .wrap { max-width: 1160px; margin: 0 auto; padding: 0 16px; }
 @media (min-width: 720px) { .wrap { padding: 0 32px; } }
-sup { font-size: 0.6em; line-height: 0; color: var(--muted); font-weight: 500; }
 .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
 
 /* Nav */
@@ -212,9 +211,7 @@ h2 { font-size: clamp(30px, 4.6vw, 46px); line-height: 1.1; letter-spacing: -0.0
 .final .btn { background: #fff; color: #1B1F3B; }
 .final .btn:hover { opacity: .92; }
 
-/* Chú thích và footer */
-.notes { margin-top: 48px; font-size: 12.5px; color: var(--muted); display: grid; gap: 4px; }
-.notes p { margin: 0; }
+/* Footer */
 footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40px; }
 .f-grid { display: grid; gap: 32px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (min-width: 860px) { .f-grid { grid-template-columns: 2fr 1fr 1fr 1fr; } }
@@ -227,8 +224,6 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
 .f-col a:hover { color: var(--ink); }
 .f-bottom { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-size: 13.5px; color: var(--muted); }
 .f-bottom p { margin: 0; }
-.status { display: inline-flex; align-items: center; gap: 8px; }
-.status i { width: 8px; height: 8px; border-radius: 50%; background: var(--good); }
 
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -243,10 +238,10 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
       Taolao Lab
     </a>
     <nav class="links" aria-label="Điều hướng">
+      <a href="#nghien-cuu">Nghiên cứu</a>
       <a href="#san-pham">Sản phẩm</a>
-      <a href="#nguyen-tac">Nguyên tắc</a>
       <a href="#doi-ngu">Đội ngũ</a>
-      <a href="#tuyen-dung">Tuyển dụng</a>
+      <a href="#hop-tac">Hợp tác</a>
     </nav>
     <div class="right">
       <button class="icon-btn" type="button" id="theme" aria-label="Đổi giao diện sáng/tối">
@@ -262,11 +257,11 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
   <section class="hero">
     <div class="wrap">
       <a class="announce" href="/giong-que-hr/"><b>Mới</b><span>Giọng Quê HR đã ra mắt</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      <h1>AI chạy ngay trên trình duyệt. <span class="grad">Không cần server.</span></h1>
-      <p class="lede">Taolao Lab là studio sản phẩm AI tại Việt Nam. Chúng tôi thiết kế, huấn luyện và vận hành phần mềm cho nhân sự và thương mại điện tử, với chi phí hạ tầng 0 đồng mỗi tháng.</p>
+      <h1>AI lab cho những vấn đề <span class="grad">chưa ai dám làm.</span></h1>
+      <p class="lede">Taolao Lab nghiên cứu và xây dựng sản phẩm AI ở những nơi người khác còn ngần ngại: phương ngữ tiếng Việt, AI chạy hoàn toàn trên thiết bị, và phần mềm do AI agent tự phát triển.</p>
       <div class="cta">
-        <a class="btn btn-accent" href="#san-pham">Khám phá sản phẩm <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=61596450370450">Liên hệ hợp tác</a>
+        <a class="btn btn-accent" href="#san-pham">Xem sản phẩm <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="#hop-tac">Hợp tác với chúng tôi</a>
       </div>
 
       <div class="stage" aria-hidden="true">
@@ -288,7 +283,6 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
       <ul>
         <li>ONNX Runtime</li>
         <li>GitHub Pages</li>
-        <li>Google Sheets</li>
         <li>VieNeu-TTS</li>
         <li>Claude</li>
       </ul>
@@ -299,13 +293,43 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
     <div class="wrap">
       <div class="center">
         <p class="kicker">Taolao Lab trong số liệu</p>
-        <h2>Gọn nhẹ từ hạ tầng đến đội ngũ</h2>
+        <h2>Nhỏ gọn, chạy ở mọi nơi</h2>
       </div>
       <div class="stats" role="list">
-        <div class="stat" role="listitem"><div class="v">2</div><div class="k">Sản phẩm đang vận hành</div></div>
+        <div class="stat" role="listitem"><div class="v">2</div><div class="k">Sản phẩm đã ra mắt</div></div>
+        <div class="stat" role="listitem"><div class="v">28 MB</div><div class="k">Model chạy ngay trên trình duyệt</div></div>
         <div class="stat" role="listitem"><div class="v">0 ₫</div><div class="k">Chi phí server mỗi tháng</div></div>
-        <div class="stat" role="listitem"><div class="v">14 ngày</div><div class="k">Từ ý tưởng đến production<sup>1</sup></div></div>
         <div class="stat" role="listitem"><div class="v">100%</div><div class="k">Mã nguồn mở</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="nghien-cuu">
+    <div class="wrap">
+      <p class="kicker">Hướng nghiên cứu</p>
+      <h2>Nơi chúng tôi tập trung</h2>
+      <p class="sec-lede">Những bài toán ít dữ liệu, ít tiền lệ, và thường bị bỏ qua vì khó. Đó là nơi chúng tôi bắt đầu.</p>
+      <div class="grid4">
+        <div class="card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v10H8l-4 4z"/><path d="M8 9h8M8 12h5"/></svg></div>
+          <h3>Phương ngữ tiếng Việt</h3>
+          <p>Model chuyển đổi và tổng hợp giọng nói cho từng vùng miền, từ những bộ dữ liệu nhỏ mà các hệ thống lớn chưa phục vụ.</p>
+        </div>
+        <div class="card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div>
+          <h3>AI trên thiết bị</h3>
+          <p>Model được nén đủ nhỏ để chạy hoàn toàn trong trình duyệt. Dữ liệu người dùng không rời khỏi máy của họ.</p>
+        </div>
+        <div class="card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.5l2.8 8M16 7.5l-2.8 8M8.5 6h7"/></svg></div>
+          <h3>Phần mềm do AI agent phát triển</h3>
+          <p>Hệ thống nhiều agent tự lập kế hoạch, viết mã, kiểm thử và triển khai một sản phẩm hoàn chỉnh.</p>
+        </div>
+        <div class="card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></div>
+          <h3>Công bố mở</h3>
+          <p>Mã nguồn, prompt và quy trình huấn luyện được công khai trên GitHub để cộng đồng kiểm chứng và dùng lại.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -314,95 +338,65 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
     <div class="wrap">
       <div class="center">
         <p class="kicker">Sản phẩm</p>
-        <h2>Hai sản phẩm. Không một server.</h2>
-        <p class="sec-lede">Mỗi sản phẩm giải quyết một vấn đề cụ thể, chạy được ngay, không cần cài đặt.</p>
+        <h2>Từ phòng lab đến người dùng</h2>
+        <p class="sec-lede">Mỗi sản phẩm bắt đầu từ một câu hỏi nghiên cứu và được phát hành công khai, dùng thử ngay không cần cài đặt.</p>
       </div>
 
       <article class="product">
         <div class="p-text">
-          <span class="p-tag"><span class="dot" aria-hidden="true"></span>Nhân sự · Ra mắt 27/11/2026</span>
+          <span class="p-tag"><span class="dot" aria-hidden="true"></span>Phương ngữ · AI trên thiết bị · Ra mắt 27/11/2026</span>
           <h3>Giọng Quê HR</h3>
-          <p class="lead">Bản địa hoá email nhân sự theo giọng quê của người nhận.</p>
-          <p>Phòng Nhân sự soạn email như bình thường. Giọng Quê HR viết lại từng câu sang giọng địa phương của nhân viên và đính kèm voice note đọc sẵn. Model chạy trên máy người dùng, nội dung email không rời khỏi trình duyệt.</p>
+          <p class="lead">Chuyển văn bản tiếng phổ thông sang giọng miền Trung, ngay trên trình duyệt.</p>
+          <p>Giọng Quê HR viết lại email của phòng Nhân sự theo giọng quê của người nhận và đính kèm voice note đọc sẵn. Toàn bộ quá trình chuyển đổi diễn ra trên máy người dùng bằng ONNX Runtime Web.</p>
           <ul class="checks">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Model seq2seq 21 triệu tham số, 28 MB, chạy offline</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Voice note giọng Quang Sơn cho 9 email mẫu</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Hỗ trợ miền Trung. Miền Bắc và miền Nam thuộc gói Enterprise</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Model seq2seq 21 triệu tham số, lượng tử hoá int8 còn 28 MB</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Huấn luyện trên 7.197 câu tiếng miền Trung</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Voice note tổng hợp bằng VieNeu-TTS</li>
           </ul>
           <div class="mini">
-            <div><b>7.197</b><span>câu huấn luyện</span></div>
-            <div><b>84%</b><span>mức thông cảm dự kiến<sup>2</sup></span></div>
+            <div><b>21M</b><span>tham số</span></div>
+            <div><b>0</b><span>dữ liệu gửi lên server</span></div>
           </div>
           <div class="p-actions">
-            <a class="btn btn-primary" href="/giong-que-hr/">Dùng thử miễn phí</a>
+            <a class="btn btn-primary" href="/giong-que-hr/">Dùng thử</a>
             <a class="btn btn-ghost" href="https://github.com/harry-brogrammer/giong-que-hr">Mã nguồn</a>
           </div>
         </div>
         <div class="p-shot">
           <div class="frame">
             <div class="bar"><i></i><i></i><i></i><span class="url">taolaolab.com/giong-que-hr</span></div>
-            <img src="/assets/giong-que-hr.jpg" width="1440" height="900" loading="lazy" alt="Giao diện Giọng Quê HR: khung soạn thư và email đã bản địa hoá sang giọng miền Trung">
+            <img src="/assets/giong-que-hr.jpg" width="1440" height="900" loading="lazy" alt="Giao diện Giọng Quê HR: khung soạn thư và email đã chuyển sang giọng miền Trung">
           </div>
         </div>
       </article>
 
       <article class="product flip">
         <div class="p-text">
-          <span class="p-tag"><span class="dot" aria-hidden="true"></span>Thương mại điện tử · Ra mắt 11/2026</span>
+          <span class="p-tag"><span class="dot" aria-hidden="true"></span>Multi-agent · Thương mại điện tử · Ra mắt 11/2026</span>
           <h3>Chợ Việt</h3>
-          <p class="lead">Sàn thương mại điện tử được phát triển hoàn toàn bởi AI.</p>
-          <p>Hệ thống 6 AI agent đã thiết kế, viết mã và triển khai Chợ Việt trong 14 ngày. Kiến trúc microservice, mỗi service sở hữu cơ sở dữ liệu riêng, tài liệu có sẵn bằng 7 ngôn ngữ.</p>
+          <p class="lead">Sàn thương mại điện tử do một hệ thống AI agent phát triển từ đầu đến cuối.</p>
+          <p>Sáu AI agent đảm nhận các vai trò quản lý sản phẩm, frontend, backend, kiểm thử, bản địa hoá và nội dung, cùng xây dựng Chợ Việt trong 14 ngày. Toàn bộ mã nguồn và nhật ký phát triển được công khai.</p>
           <ul class="checks">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>14 microservice, 184.920 dòng mã</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Database-per-service trên Google Sheets</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Tổng chi phí phát triển 523,41 USD<sup>3</sup></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Kiến trúc 14 microservice</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Tài liệu bằng 7 ngôn ngữ</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Mã nguồn mở, giấy phép MIT</li>
           </ul>
           <div class="mini">
-            <div><b>2.000.000</b><span>người dùng đồng thời, load test<sup>4</sup></span></div>
-            <div><b>4</b><span>người dùng đồng thời, production</span></div>
+            <div><b>6</b><span>AI agent</span></div>
+            <div><b>14 ngày</b><span>từ ý tưởng đến ra mắt</span></div>
           </div>
           <div class="p-actions">
-            <a class="btn btn-primary" href="/cho-viet/">Vào Chợ Việt</a>
+            <a class="btn btn-primary" href="/cho-viet/">Xem bản trình diễn</a>
             <a class="btn btn-ghost" href="https://github.com/harry-brogrammer/cho-viet">Mã nguồn</a>
           </div>
         </div>
         <div class="p-shot">
           <div class="frame">
             <div class="bar"><i></i><i></i><i></i><span class="url">taolaolab.com/cho-viet</span></div>
-            <img src="/assets/cho-viet.jpg" width="1440" height="900" loading="lazy" alt="Giao diện Chợ Việt: banner Siêu Sale 11.11 và khu Flash Sale">
+            <img src="/assets/cho-viet.jpg" width="1440" height="900" loading="lazy" alt="Giao diện Chợ Việt: banner khuyến mãi và khu Flash Sale">
           </div>
         </div>
       </article>
-    </div>
-  </section>
-
-  <section class="block" id="nguyen-tac">
-    <div class="wrap">
-      <p class="kicker">Nguyên tắc</p>
-      <h2>Cách chúng tôi làm sản phẩm</h2>
-      <p class="sec-lede">Bốn nguyên tắc áp dụng cho mọi sản phẩm của Taolao Lab, từ dòng mã đầu tiên.</p>
-      <div class="grid4">
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M3 3l18 18"/></svg></div>
-          <h3>Không server</h3>
-          <p>Sản phẩm chạy trên trình duyệt hoặc dịch vụ có sẵn. Không có gì để sập, không có hoá đơn cloud cuối tháng.</p>
-        </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
-          <h3>Riêng tư từ thiết kế</h3>
-          <p>Dữ liệu được xử lý ngay trên máy người dùng. Chúng tôi không lưu email của bạn, vì không có server để lưu.</p>
-        </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div>
-          <h3>Phát hành liên tục</h3>
-          <p>AI agent đẩy thay đổi thẳng lên nhánh <span class="mono">main</span>. Bản mới lên production sau vài phút.</p>
-        </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></div>
-          <h3>Mã nguồn mở</h3>
-          <p>Toàn bộ mã nguồn công khai trên GitHub theo giấy phép MIT. Mọi người đều có thể đọc.<sup>5</sup></p>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -410,75 +404,67 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
     <div class="wrap">
       <p class="kicker">Đội ngũ</p>
       <h2>Một founder. Sáu AI agent.</h2>
-      <p class="sec-lede">Đội ngũ gọn nhẹ nhất ngành, theo đánh giá nội bộ của PM-agent.</p>
+      <p class="sec-lede">Một đội ngũ tinh gọn, trong đó con người định hướng và AI agent thực thi.</p>
       <div class="team">
         <div class="person lead">
           <div class="av" style="background: linear-gradient(135deg, #3B5BFD, #8B5CF6)">HT</div>
           <div>
             <h3>Harry Truong</h3>
-            <div class="role">Founder &amp; CEO</div>
-            <p>Mô tả ý tưởng, duyệt kết quả, xác nhận đơn hàng qua Zalo. Thành viên con người duy nhất của công ty.</p>
+            <div class="role">Founder</div>
+            <p>Định hướng nghiên cứu, thiết kế sản phẩm và điều phối hệ thống AI agent.</p>
           </div>
         </div>
         <div class="person">
           <div class="av ai" style="background:#0F766E">PM<span class="badge">AI</span></div>
-          <div><h3>PM-agent</h3><div class="role">Quản lý sản phẩm</div><p>Lập lộ trình, đánh giá độ khó, chấm chỉ số nội bộ.</p></div>
+          <div><h3>PM-agent</h3><div class="role">Quản lý sản phẩm</div><p>Lập kế hoạch và ưu tiên tính năng.</p></div>
         </div>
         <div class="person">
           <div class="av ai" style="background:#B45309">FE<span class="badge">AI</span></div>
-          <div><h3>FE-agent</h3><div class="role">Frontend</div><p>Chuyên ứng dụng một tệp duy nhất.</p></div>
+          <div><h3>FE-agent</h3><div class="role">Frontend</div><p>Xây dựng giao diện web.</p></div>
         </div>
         <div class="person">
           <div class="av ai" style="background:#1D4ED8">BE<span class="badge">AI</span></div>
-          <div><h3>BE-agent</h3><div class="role">Backend</div><p>Vận hành 14 microservice trên Google Sheets.</p></div>
+          <div><h3>BE-agent</h3><div class="role">Backend</div><p>Phát triển dịch vụ và dữ liệu.</p></div>
         </div>
         <div class="person">
           <div class="av ai" style="background:#BE123C">QA<span class="badge">AI</span></div>
-          <div><h3>QA-agent</h3><div class="role">Kiểm thử</div><p>Phát hiện lỗi và viết postmortem.</p></div>
+          <div><h3>QA-agent</h3><div class="role">Kiểm thử</div><p>Kiểm thử và báo cáo sự cố.</p></div>
         </div>
         <div class="person">
           <div class="av ai" style="background:#7C3AED">TR<span class="badge">AI</span></div>
-          <div><h3>Translator-agent</h3><div class="role">Bản địa hoá</div><p>Tài liệu 7 ngôn ngữ, chưa review.</p></div>
+          <div><h3>Translator-agent</h3><div class="role">Bản địa hoá</div><p>Dịch tài liệu và giao diện sang nhiều ngôn ngữ.</p></div>
         </div>
         <div class="person">
           <div class="av ai" style="background:#4D7C0F">CW<span class="badge">AI</span></div>
-          <div><h3>Copywriter-agent</h3><div class="role">Nội dung</div><p>Viết README, thông cáo và trang này.</p></div>
+          <div><h3>Copywriter-agent</h3><div class="role">Nội dung</div><p>Viết tài liệu và nội dung sản phẩm.</p></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="block" id="tuyen-dung">
+  <section class="block" id="hop-tac">
     <div class="wrap">
       <div class="duo">
         <div class="panel">
-          <p class="kicker">Tuyển dụng</p>
-          <h3>Chưa có vị trí nào cho con người</h3>
-          <p>Toàn bộ vị trí hiện tại do AI agent đảm nhận.</p>
-          <p class="small">Chúng tôi sẽ thông báo trên Facebook khi có thay đổi. Ứng viên không phù hợp sẽ nhận thư qua Giọng Quê HR.</p>
-          <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=61596450370450">Theo dõi trên Facebook</a>
+          <p class="kicker">Hợp tác</p>
+          <h3>Bạn có một bài toán chưa ai dám nhận?</h3>
+          <p>Chúng tôi làm việc với doanh nghiệp và nhà nghiên cứu trên những bài toán AI khó, ít dữ liệu hoặc chưa có lời giải.</p>
+          <p class="small">Gửi mô tả ngắn về bài toán, chúng tôi sẽ phản hồi.</p>
+          <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=61596450370450">Liên hệ hợp tác</a>
         </div>
-        <div class="panel" id="dau-tu">
-          <p class="kicker">Nhà đầu tư</p>
-          <h3>Đang gọi vốn vòng hạt giống</h3>
-          <p>Taolao Lab tìm nhà đầu tư đồng hành cho giai đoạn tiếp theo: miền Bắc, miền Nam, và người dùng thứ năm.</p>
-          <p class="small">Đã huy động: 0 ₫. Số nhà đầu tư đã liên hệ: 0.</p>
-          <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=61596450370450">Liên hệ founder</a>
+        <div class="panel" id="tuyen-dung">
+          <p class="kicker">Tuyển dụng</p>
+          <h3>Cùng xây dựng Taolao Lab</h3>
+          <p>Hiện chưa mở vị trí tuyển dụng.</p>
+          <p class="small">Theo dõi Taolao Lab trên Facebook để nhận thông báo sớm nhất khi có vị trí mới.</p>
+          <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=61596450370450">Theo dõi trên Facebook</a>
         </div>
       </div>
 
       <div class="final">
-        <h2>Có một vấn đề chưa ai đặt ra?</h2>
-        <p>Chúng tôi sẽ xây sản phẩm cho nó, thường trong vòng một cuối tuần.</p>
-        <a class="btn" href="https://www.facebook.com/profile.php?id=61596450370450">Nhắn cho founder</a>
-      </div>
-
-      <div class="notes">
-        <p>¹ Chợ Việt, phát triển bởi 6 AI agent.</p>
-        <p>² Do phòng Nhân sự tự chấm. Chưa có khảo sát nào.</p>
-        <p>³ Chưa bao gồm chi phí điện.</p>
-        <p>⁴ Mô phỏng trên 3 tab Google Chrome.</p>
-        <p>⁵ Tính đến nay chưa có ai đọc.</p>
+        <h2>Có một vấn đề chưa ai dám làm?</h2>
+        <p>Kể cho chúng tôi nghe. Có thể đó là sản phẩm tiếp theo của Taolao Lab.</p>
+        <a class="btn" href="https://www.facebook.com/profile.php?id=61596450370450">Liên hệ Taolao Lab</a>
       </div>
     </div>
   </section>
@@ -489,7 +475,7 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
     <div class="f-grid">
       <div class="f-brand">
         <a class="brand" href="/"><span class="logo" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none"><path d="M3 4.5h10M8 4.5v8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg></span>Taolao Lab</a>
-        <p>Studio sản phẩm AI cho những vấn đề chưa ai đặt ra. Việt Nam.</p>
+        <p>AI lab cho những vấn đề chưa ai dám làm. Việt Nam.</p>
       </div>
       <div class="f-col">
         <h4>Sản phẩm</h4>
@@ -499,12 +485,12 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
         </ul>
       </div>
       <div class="f-col">
-        <h4>Công ty</h4>
+        <h4>Lab</h4>
         <ul>
-          <li><a href="#nguyen-tac">Nguyên tắc</a></li>
+          <li><a href="#nghien-cuu">Nghiên cứu</a></li>
           <li><a href="#doi-ngu">Đội ngũ</a></li>
+          <li><a href="#hop-tac">Hợp tác</a></li>
           <li><a href="#tuyen-dung">Tuyển dụng</a></li>
-          <li><a href="#dau-tu">Nhà đầu tư</a></li>
         </ul>
       </div>
       <div class="f-col">
@@ -516,8 +502,8 @@ footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 48px 0 40
       </div>
     </div>
     <div class="f-bottom">
-      <p>© 2026 Taolao Lab. Số liệu do bộ phận nội bộ tự chấm.</p>
-      <p class="status"><i aria-hidden="true"></i>Mọi hệ thống hoạt động bình thường</p>
+      <p>© 2026 Taolao Lab.</p>
+      <p>taolaolab.com</p>
     </div>
   </div>
 </footer>

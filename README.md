@@ -1,32 +1,36 @@
 # Taolao Lab
 
-Trang chủ của Taolao Lab, phòng nghiên cứu sản phẩm AI cho những vấn đề chưa ai đặt ra.
+Trang chủ của Taolao Lab, AI lab tại Việt Nam chuyên những vấn đề chưa ai dám làm.
 
-**Môi trường production:** https://taolaolab.com
+**Website:** https://taolaolab.com
 
-## Danh mục sản phẩm
+## Hướng nghiên cứu
 
-| Sản phẩm | Đường dẫn | Mã nguồn | Ghi chú |
-|---|---|---|---|
-| Giọng Quê HR | https://taolaolab.com/giong-que-hr/ | [harry-brogrammer/giong-que-hr](https://github.com/harry-brogrammer/giong-que-hr) | Hỗ trợ 1/3 miền |
-| Chợ Việt | https://taolaolab.com/cho-viet/ | [harry-brogrammer/cho-viet](https://github.com/harry-brogrammer/cho-viet) | Tối đa 3 người dùng đồng thời |
+- Phương ngữ tiếng Việt
+- AI chạy trên thiết bị
+- Phần mềm do AI agent phát triển
+- Công bố mở
 
-## Kiến trúc hệ thống
+## Sản phẩm
 
-| Thành phần | Công nghệ | Ghi chú |
+| Sản phẩm | Đường dẫn | Mã nguồn |
 |---|---|---|
-| Hosting | GitHub Pages | Repo này là site của org. Mọi repo Pages khác trong org tự chạy tại `taolaolab.com/<tên-repo>/` |
-| Tên miền | `taolaolab.com` | Tệp `CNAME` |
-| Backend | Không có | |
-| Build | Không có | Một tệp HTML |
+| Giọng Quê HR | https://taolaolab.com/giong-que-hr/ | [harry-brogrammer/giong-que-hr](https://github.com/harry-brogrammer/giong-que-hr) |
+| Chợ Việt | https://taolaolab.com/cho-viet/ | [harry-brogrammer/cho-viet](https://github.com/harry-brogrammer/cho-viet) |
+
+## Cấu trúc
+
+| Thành phần | Ghi chú |
+|---|---|
+| Hosting | GitHub Pages. Repo này là site của org; mọi repo Pages khác trong org chạy tại `taolaolab.com/<tên-repo>/` |
+| Tên miền | `taolaolab.com` (tệp `CNAME`), DNS trên Cloudflare |
+| Trang | `index.html` một tệp, ảnh sản phẩm trong `assets/`, ảnh xem trước `og-3.png` |
 
 ## Thêm sản phẩm mới
 
 1. Tạo repo trong org `harry-brogrammer`, bật GitHub Pages từ nhánh `main`.
 2. Dùng đường dẫn tương đối trong trang. Sản phẩm sẽ chạy tại `https://taolaolab.com/<tên-repo>/`.
-3. Thêm một thẻ vào mục "Danh mục sản phẩm" trong `index.html`.
-
-Không cần cấu hình tên miền cho từng repo.
+3. Thêm một khối sản phẩm vào mục "Sản phẩm" trong `index.html`.
 
 ## Giấy phép
 
